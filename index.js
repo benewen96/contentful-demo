@@ -21,4 +21,4 @@ app.get('/', function(req,res) {
   .then((entry) => res.render('index', {entry : entry}));
 });
 
-app.listen('5000');
+app.listen(port);
